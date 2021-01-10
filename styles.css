@@ -1,0 +1,91 @@
+body
+{
+  background-color:rgb(0,0,25);
+}
+header
+{
+    background-color: black;
+}
+h1
+{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding: 20px 25px;
+}
+
+nav
+{
+  background-color:rgb(40, 40, 50);
+  text-align: center;
+}
+a:link, a:visited {
+  background-color:rgb(40, 40, 50);
+  color: white;
+  font-family: courier;
+  padding: 12px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: rgb(0, 0, 0);
+}
+
+div {
+  background-color:rgb(0,0,25);
+  text-align: center;
+}
+
+#about
+{
+  color: white;
+  text-align: center;
+  display: inline-block;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.title {
+  font-family: courier;
+}
+
+.scaled {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border-radius: 80%;
+}
+
+.info {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family:courier;
+  color: rgb(0, 0, 20);
+  font-size: 150%;
+  border: 3px solid rgb(0,0,25);
+  text-align: justify;
+  background-image: linear-gradient(to bottom right, rgba(100, 100, 200, 1), rgba(255, 255, 255, 1), rgba(100, 100, 200, 1));
+  padding: 10px 10px;
+}
+
+.left {
+  text-align:center;
+  width: 50%;
+  font-family:"Courier New";
+}
+.right {
+  width: 50%;
+  text-align:center;
+  font-family:"Courier New";
+}
+
+footer {
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  font-family:"Courier New";
+}
